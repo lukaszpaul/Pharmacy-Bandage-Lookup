@@ -39,6 +39,7 @@ with lookup:
     if st.button("Search"):
      result = search_csv(search_term)
      st.write(result)
+     st.write("--")
     
 with dataset:
     st.markdown("<h3 style='color:rgb(0, 77, 187); font-weight:bold';>Raw Bandage Data</h3>", unsafe_allow_html=True)
